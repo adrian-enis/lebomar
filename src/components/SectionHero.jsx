@@ -1,5 +1,5 @@
 import React from 'react'
-import oficina from "../img/oficina.jpg"
+import oficina from "/img/oficina.jpg"
 const SectionHero = () => {
   return (
     <section className='section-hero'>

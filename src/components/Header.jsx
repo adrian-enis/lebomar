@@ -1,8 +1,8 @@
 import React from 'react'
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import logoLegomar from "../img/logo-lebomar.png"
+import logoLegomar from "/img/logo-lebomar.png"
 import { useMemo } from 'react';
-import mini_1 from "../img/mini_01.jpg"
+
 
 
 
@@ -45,7 +45,7 @@ const Header = ({ menu, toggleMenu, handleClick, showCart, toggleCart, cart, inc
 
                     <div key={prevItem.id}>
                       <div className="producto">
-                        <img className='img-producto' src={`src/img/${prevItem.image}`} alt="producto" />
+                        <img className='img-producto' src={`/img/${prevItem.image}`} alt="producto" />
                         <p>{prevItem.description}</p>
 
                       </div>

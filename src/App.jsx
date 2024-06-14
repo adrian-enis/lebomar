@@ -6,7 +6,10 @@ import "./styles/App.scss"
 import Header from './components/Header'
 import SectionHero from './components/SectionHero'
 import Producto from './components/Producto'
+// import useCart from './Hooks/useCart'
 const App = () => {
+
+  // useCart()
 
   const [menu, setMenu] = useState(false)
   const [showCart, setShowCart] = useState(false)

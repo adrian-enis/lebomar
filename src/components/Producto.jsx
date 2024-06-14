@@ -1,5 +1,5 @@
 import React from 'react'
-import LazyLoad from 'react-lazy-load';
+
 
 const Producto = ({ item, addToCart }) => {
 
@@ -10,7 +10,7 @@ const Producto = ({ item, addToCart }) => {
 
       <div className="producto">
         <figure>
-          <img src={`src/img/${image}`} alt="" />
+          <img src={`/img/${image}`} alt="" />
         
         </figure>
         <div className="detalles-producto">
